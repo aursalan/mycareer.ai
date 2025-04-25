@@ -67,6 +67,7 @@ node server.js
 Prerequisite : Python 3.11 
 ```bash 
 cd ml
+python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt 
 python -m spacy download en_core_web_sm
