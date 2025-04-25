@@ -17,12 +17,16 @@ This system offers two modes:
 The platform uses **cosine similarity**, **TF-IDF**, **sentence-transformers**, and **PCA** to match user profiles to the best career options using the O*NET occupation database.
 
 ---
-## 📽 Demo Video
+## 🎬 Demo Showcase
 
-<video width="100%" height="auto" controls>
-  <source src="assets/demo1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+### **1. Landing**  
+![Landing Demo](assets/demo1.gif)  
+
+### **2. With Questions Mode**  
+![Workflow 1 Demo](assets/demo2.gif)  
+
+### **3 .Without Questions Mode**  
+![Workflow 2 Demo](assets/demo3.gif)  
 
 ---
 
