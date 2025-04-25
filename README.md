@@ -19,13 +19,13 @@ The platform uses **cosine similarity**, **TF-IDF**, **sentence-transformers**, 
 ---
 ## 🎬 Demo Showcase
 
-### **1. Landing**  
+### **Landing Page**  
 ![Landing Demo](assets/demo1.gif)  
 
-### **2. With Questions Mode**  
+### **With Questions Mode**  
 ![Workflow 1 Demo](assets/demo2.gif)  
 
-### **3 .Without Questions Mode**  
+### **Without Questions Mode**  
 ![Workflow 2 Demo](assets/demo3.gif)  
 
 ---
@@ -45,13 +45,16 @@ Prerequisite : Git
 git clone https://github.com/aursalan/AI-Based-Career-Counselling.git
 cd AI-Based-Career-Counselling
 ``` 
-### 2. Run Database 
-Prerequisite : MongoDB Community Edition 
+### 2. Setup & Run Database 
+Prerequisite : MongoDB Community Edition  
 ```bash
 #Copy the database directory path
 cd database
 mongod --dbpath "paste copied path"
 ```
+Open MongoDB Compass GUI and import .csv files as per the database struture below: 
+
+![Alt Text](assets/database%20structure.png)
 
 ### 3. Start the Backend Server
 Prerequisite : Node.js 
