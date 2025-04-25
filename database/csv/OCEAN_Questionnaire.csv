@@ -1,0 +1,71 @@
+Question,Trait,Reverse Scored
+Accept people as they are.,A,No
+Sympathize with others' feelings.,A,No
+Respect others.,A,No
+Am concerned about others.,A,No
+Get back at others.,A,No
+Believe that others have good intentions.,A,No
+Hold a grudge.,A,No
+Am out for my own personal gain.,A,No
+Treat all people equally.,A,No
+Suspect hidden motives in others.,A,No
+Make demands on others.,A,No
+Am easy to satisfy.,A,No
+Have a good word for everyone.,A,No
+Trust what people say.,A,No
+Am always prepared.,C,No
+Pay attention to details.,C,No
+Mess things up.,C,No
+Am exacting in my work.,C,No
+Find it difficult to get down to work.,C,Yes
+Do things according to a plan.,C,No
+Get chores done right away.,C,No
+Complete tasks successfully.,C,No
+Shirk my duties.,C,Yes
+Need a push to get started.,C,No
+Make a mess of things.,C,Yes
+Carry out my plans.,C,No
+Finish what I start.,C,No
+Waste my time.,C,Yes
+Am hard to get to know.,E,Yes
+Talk to a lot of different people at parties.,E,No
+Retreat from others.,E,No
+Am skilled in handling social situations.,E,No
+Feel comfortable around people.,E,No
+Don't like to draw attention to myself.,E,Yes
+Keep in the background.,E,Yes
+Avoid contacts with others.,E,No
+Warm up quickly to others.,E,No
+Start conversations.,E,No
+Know how to captivate people.,E,No
+Am the life of the party.,E,No
+Find it difficult to approach others.,E,Yes
+Would describe my experiences as somewhat dull.,E,No
+Am filled with doubts about things.,N,No
+Seldom feel blue.,N,No
+Rarely lose my composure.,N,No
+Am not easily bothered by things.,N,No
+Feel comfortable with myself.,N,No
+Am very pleased with myself.,N,No
+Have frequent mood swings.,N,Yes
+Am often down in the dumps.,N,No
+Seldom get mad.,N,No
+Remain calm under pressure.,N,No
+Panic easily.,N,Yes
+Am not easily frustrated.,N,No
+Feel threatened easily.,N,Yes
+Worry about things.,N,Yes
+Am not interested in abstract ideas.,O,Yes
+Rarely look for a deeper meaning in things.,O,No
+Have a vivid imagination.,O,No
+Am not interested in theoretical discussions.,O,No
+Do not like art.,O,No
+Can say things beautifully.,O,No
+Enjoy thinking about things.,O,No
+Believe in the importance of art.,O,No
+Tend to vote for conservative political candidates.,O,No
+Have difficulty understanding abstract ideas.,O,Yes
+Get excited by new ideas.,O,No
+Avoid philosophical discussions.,O,No
+Do not like poetry.,O,No
+Tend to vote for liberal political candidates.,O,No

@@ -1,0 +1,8 @@
+flask 
+pymongo 
+numpy 
+spacy 
+scikit-learn 
+sentence-transformers 
+nltk
+

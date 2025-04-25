@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This will style ALL alert dialogs in your app */
+/* Note: This only works in some browsers (Chrome/Edge) */
+/* For full cross-browser support, see the JavaScript solution below */
+
+/* Style the alert dialog box */
+alert {
+    font-family: 'Neue Montreal', sans-serif;
+    border-radius: 1.5rem !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) !important;
+    padding: 2rem !important;
+    max-width: 400px !important;
+  }
+  
+  /* Style the alert message */
+  alert-message {
+    color: #333 !important;
+    font-size: 1.1rem !important;
+  }
+  
+  /* Style the OK button */
+  alert-button {
+    background: #0E71D3 !important;
+    color: white !important;
+    border-radius: 9999px !important;
+    padding: 0.5rem 1.5rem !important;
+    font-weight: 500 !important;
+  }

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.so
+.Python
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+#Database 
+/database/*
+!/database/csv/
+!/database/csv/**
+
+# Node.js
+node_modules/
+
+# Installed Packages (site-packages)
+**/site-packages/
+
+# Jupyter Notebooks (if needed)
+*.ipynb
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
