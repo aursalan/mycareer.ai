@@ -20,7 +20,7 @@ The platform uses **cosine similarity**, **TF-IDF**, **sentence-transformers**, 
 ## 📽 Demo Video
 
 <video width="100%" height="auto" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
+  <source src="assets/demo1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
