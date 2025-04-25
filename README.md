@@ -19,13 +19,13 @@ The platform uses **cosine similarity**, **TF-IDF**, **sentence-transformers**, 
 ---
 ## 🎬 Demo Showcase
 
-### **1. Landing Page**  
+### **1. Landing**  
 ![Landing Demo](assets/demo1.gif)  
 
-### **2. Workflow 1**  
+### **2. With Questions Mode**  
 ![Workflow 1 Demo](assets/demo2.gif)  
 
-### **3. Workflow 2**  
+### **3 .Without Questions Mode**  
 ![Workflow 2 Demo](assets/demo3.gif)  
 
 ---
