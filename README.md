@@ -1,5 +1,5 @@
 
-# 🎯 AI-Based Career Counselling
+# 🎯 mycareer.ai
 
 An intelligent, two-mode career guidance platform that recommends ideal occupations based on users' **personality traits, interests, and education background** using AI and Machine Learning.
 
