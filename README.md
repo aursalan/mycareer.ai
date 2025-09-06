@@ -1,9 +1,9 @@
 
 # Mycareer.ai 
 
-> This project is an intelligent, two-mode career guidance platform that uses AI and Machine Learning to recommend ideal occupations.
+> An intelligent, two-mode career guidance platform that uses AI and Machine Learning to recommend ideal occupations.
 
-- It provides personalized career recommendations based on users' personality traits (OCEAN), interests (RIASEC), and educational background.
+- It provides personalised career recommendations based on users' personality traits (OCEAN), interests (RIASEC), and educational background.
 
 - The system features two distinct modes: a questionnaire-based mode for structured input and a free-text mode that leverages Natural Language Processing (NLP) for analysis.
 
@@ -14,17 +14,17 @@
 
 ## Demo
 
-Insert gif or link to demo
+![](/assets/demo1.gif)
 
 
 ## Table of Contents
 
-* [Tech Stack and Prerequisites](#1-project-description)
-* [How to Install and Run the Project](#3-how-to-install-and-run-the-project)
-* [How to Use the Project](#4-how-to-use-the-project)
-* [Future Improvements](#4-how-to-use-the-project)
-* [Acknowledgements](#5-include-credits)
-* [License](#6-add-a-license)
+* [Tech Stack and Prerequisites](#tech-stack-and-prerequisites)
+* [How to Install and Run the Project](#how-to-install-and-run-the-project)
+* [How to Use the Project](#how-to-use-the-project)
+* [Future Improvements](#future-improvements)
+* [Acknowledgements](#acknowledgements)
+* [License](#license)
 ## Tech Stack and Prerequisites
 
 **Frontend:** React.js, Tailwind CSS, Vite
@@ -105,16 +105,16 @@ Once the application is running, open your browser and navigate to http://localh
 
 You will be presented with two modes:
 
-> With Questions Mode
-- Select this option to follow a guided questionnaire.
-- Answer the series of questions based on the OCEAN (Big Five) personality and RIASEC (Holland Code) interest models.
-- Select your education level.
-- The system will analyze your responses and generate personalized career recommendations.
+- With Questions Mode
+    - Select this option to follow a guided questionnaire.
+    - Answer the series of questions based on the OCEAN (Big Five)  personality and RIASEC (Holland Code) interest models.
+    - Select your education level.
+    - The system will analyze your responses and generate personalized career recommendations.
 
-> Without Questions Mode
-- Select this option for a faster, text-based analysis.
-- Enter a free-text description of your skills, educational background, work experience, and interests.
-- The system will use NLP to process your input and suggest relevant career paths.
+- Without Questions Mode
+    - Select this option for a faster, text-based analysis.
+    - Enter a free-text description of your skills, educational  background, work experience, and interests.
+    - The system will use NLP to process your input and suggest relevant career paths.
 ##  Future Improvements
 
 📄 **Resume Parsing**: Allow users to upload their resumes for automatic data extraction.
@@ -126,9 +126,8 @@ You will be presented with two modes:
 ☁️ **Cloud Deployment**: Dockerize the application for easy deployment on platforms like Render, Railway, or Heroku.
 ## Acknowledgements
 
- - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [Awesome README](https://github.com/matiassingers/awesome-readme)
- - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+ - [O*NET Database](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.onetcenter.org/database.html&ved=2ahUKEwjqkPDf8sOPAxU_xjgGHVJJAVkQFnoECBsQAQ&usg=AOvVaw1eY0-Pbasvzk_KaZWy7XF4)
+ - [MongoDB Documentation](https://www.mongodb.com/docs/)
 
 ## License
 This project is licensed under the [MIT](LICENSE) License.
