@@ -14,7 +14,7 @@
 
 ## Demo
 
-![](/assets/demo1.gif)
+![](/assets/demo.gif)
 
 
 ## Table of Contents
