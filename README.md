@@ -35,7 +35,7 @@ Insert gif or link to demo
 
 
 
-## How Install and Run the Project
+## How to Install and Run the Project
 
 1. Clone the Repository:
 ```
