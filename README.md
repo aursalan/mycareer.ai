@@ -1,101 +1,134 @@
+
 # Mycareer.ai 
 
-This project provides an **AI-powered career guidance platform** that recommends ideal occupations based on users' personality traits, interests, and educational background. The system leverages state-of-the-art machine learning and natural language processing techniques to match users with relevant careers.
+> This project is an intelligent, two-mode career guidance platform that uses AI and Machine Learning to recommend ideal occupations.
 
-<p align="center">
-  <img src="assets/demo1.gif" alt="Project Demo" width="600"/>
-</p>
+- It provides personalized career recommendations based on users' personality traits (OCEAN), interests (RIASEC), and educational background.
 
-The analysis and recommendation workflow includes:
-- Collecting and parsing user input, either through structured questionnaires (OCEAN, RIASEC) or free-text descriptions of skills, education, and experience.
-- Processing and cleaning user profiles to prepare them for analysis.
-- Applying machine learning models and NLP techniques (cosine similarity, TF-IDF, sentence-transformers, PCA) to map users to occupations from the O*NET database.
-- Presenting career recommendations and interactive feedback through a modern web interface.
+- The system features two distinct modes: a questionnaire-based mode for structured input and a free-text mode that leverages Natural Language Processing (NLP) for analysis.
 
-The goal of this platform is to demonstrate how accessible AI tools and web technologies can be combined to deliver personalized career exploration experiences.
+- It employs advanced techniques like cosine similarity, TF-IDF, sentence-transformers, and PCA to map user profiles against the comprehensive O*NET occupation database.
+
+- The platform is built with a modern, scalable architecture, featuring a modular backend and persistent storage with MongoDB.
+
+
+## Demo
+
+Insert gif or link to demo
+
 
 ## Table of Contents
 
-- [How to Install and Run the Project](#how-to-install-and-run-the-project)
-- [How to Use the Project](#how-to-use-the-project)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
+* [Tech Stack and Prerequisites](#1-project-description)
+* [How to Install and Run the Project](#3-how-to-install-and-run-the-project)
+* [How to Use the Project](#4-how-to-use-the-project)
+* [Future Improvements](#4-how-to-use-the-project)
+* [Acknowledgements](#5-include-credits)
+* [License](#6-add-a-license)
+## Tech Stack and Prerequisites
 
-## How to Install and Run the Project
+**Frontend:** React.js, Tailwind CSS, Vite
 
-This project is designed to run locally and consists of several components.  
-**Please follow these steps for a successful setup:**
+**Backend:** Node.js, Express.js, MongoDB, Python, Flask.
 
-### 1. Clone the Repository
-  ```bash
-  git clone https://github.com/aursalan/mycareer.ai.git
-  cd mycareer.ai
-  ```
+**Prerequisites:** Git, MongoDB Community Edition, Node.js, Python 3.11
 
-### 2. Setup & Run MongoDB
-- **Install MongoDB Community Edition** if you haven't.
-- Start the MongoDB server:
-  ```bash
-  mongod --dbpath "your/database/path"
-  ```
-- Open **MongoDB Compass GUI** and import the `.csv` files into the appropriate collections as per the database structure:
-  ![Database Structure](assets/database%20structure.png)
 
-### 3. Start the Backend Server
-- **Requirement:** Node.js
-- From the project root:
-  ```bash
-  cd backend
-  node server.js
-  ```
 
-### 4. Start the ML Flask Server
-- **Requirement:** Python 3.11
-- From the project root:
-  ```bash
-  cd ml
-  python -m venv .venv
-  # Activate virtual environment (Windows)
-  .venv\Scripts\activate
-  # Or (Linux/Mac)
-  source .venv/bin/activate
+## How Install and Run the Project
 
-  pip install -r requirements.txt
-  python -m spacy download en_core_web_sm
-  python -m nltk.downloader wordnet
+1. Clone the Repository:
+```
+git clone https://github.com/aursalan/mycareer.ai.git
+cd mycareer.ai
+```
 
-  # Start the recommendation modules
-  python CBF_Recommendation.py
-  python CBF_using_AI.py
-  ```
+2. Setup and Run MongoDB:
+```
+cd database
+mongod --dbpath "your_database_directory_path"
+```
+- Open MongoDB Compass and import the provided .csv files into their respective collections as shown in the database structure.
+```
+Major_Project (Database)
+├── CBF (Collection)
+├── CBF_using_AI (Collection)
+├── OCEAN_Questionnaire (Collection)
+├── RAISEC_Questionnaire (Collection)
+├── User_Recommendations (Collection)
+└── User_Responses (Collection)
 
-### 5. Start the Frontend
-- **Requirement:** Node.js, Vite, TailwindCSS
-- From the project root:
-  ```bash
-  cd frontend
-  npm install
-  npm run dev
-  ```
-- Open your browser and visit [http://localhost:5173](http://localhost:5173)
+```
 
----
+3. Start the Backend Server:
+```
+cd backend
+node server.js
+```
+
+4. Start the ML Flask Server
+- Set up and activate a Python virtual environment:
+```
+cd ml
+python -m venv .venv
+# On Windows
+.venv\Scripts\activate
+# On Linux/Mac
+source .venv/bin/activate
+```
+
+- Install the required packages and download NLP models:
+```
+pip install -r requirements.txt
+python -m spacy download en_core_web_sm
+python -m nltk.downloader wordnet
+```
+
+- Run the recommendation scripts:
+```
+python CBF_Recommendation.py
+python CBF_using_AI.py
+```
+
+- Start the Frontend:
+```
+cd frontend
+npm install
+npm run dev
+```
+
+You can now access the application at http://localhost:5173.
 
 ## How to Use the Project
 
-Once you run the application, you can:
+Once the application is running, open your browser and navigate to http://localhost:5173.
 
-- Receive career recommendations based on personality/interest questionnaires or free-text profile input.
-- Explore interactive demo workflows and visualizations.
-- Review average matching scores and recommended career paths.
+You will be presented with two modes:
 
+> With Questions Mode
+- Select this option to follow a guided questionnaire.
+- Answer the series of questions based on the OCEAN (Big Five) personality and RIASEC (Holland Code) interest models.
+- Select your education level.
+- The system will analyze your responses and generate personalized career recommendations.
+
+> Without Questions Mode
+- Select this option for a faster, text-based analysis.
+- Enter a free-text description of your skills, educational background, work experience, and interests.
+- The system will use NLP to process your input and suggest relevant career paths.
+##  Future Improvements
+
+📄 **Resume Parsing**: Allow users to upload their resumes for automatic data extraction.
+
+📊 **Real-time Job Market Data**: Integrate with APIs from LinkedIn or Glassdoor to show current job trends.
+
+🧠 **Advanced User Interaction**: Incorporate facial emotion recognition and mouse tracking for deeper behavioral insights.
+
+☁️ **Cloud Deployment**: Dockerize the application for easy deployment on platforms like Render, Railway, or Heroku.
 ## Acknowledgements
 
- - [O*NET Database](https://www.onetcenter.org/database.html)
- - [NumPy Documentation](https://numpy.org/doc/)
- - [Matplotlib Documentation](https://matplotlib.org/stable/index.html)
- - [React Documentation](https://react.dev/)
- - [MongoDB Documentation](https://www.mongodb.com/docs/)
+ - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+ - [Awesome README](https://github.com/matiassingers/awesome-readme)
+ - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
 
 ## License
 This project is licensed under the [MIT](LICENSE) License.
