@@ -1,4 +1,4 @@
-# mycareer.ai
+# Mycareer.ai 
 
 This project provides an **AI-powered career guidance platform** that recommends ideal occupations based on users' personality traits, interests, and educational background. The system leverages state-of-the-art machine learning and natural language processing techniques to match users with relevant careers.
 
@@ -16,7 +16,6 @@ The goal of this platform is to demonstrate how accessible AI tools and web tech
 
 ## Table of Contents
 
-- [Project Description](#mycareerai)
 - [How to Install and Run the Project](#how-to-install-and-run-the-project)
 - [How to Use the Project](#how-to-use-the-project)
 - [Acknowledgements](#acknowledgements)
