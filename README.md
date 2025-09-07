@@ -23,8 +23,8 @@
 
 ## 1. Tech Stack and Prerequisites
 
-**Frontend:** React.js, Tailwind CSS, Vite
-**Backend:** Node.js, Express.js, MongoDB, Python, Flask.
+**Frontend:** React.js, Tailwind CSS, Vite\
+**Backend:** Node.js, Express.js, MongoDB, Python, Flask.\
 **Prerequisites:** Git, MongoDB Community Edition, Node.js, Python 3.11
 
 ## 2. How to Install and Run the Project
