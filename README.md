@@ -4,38 +4,30 @@
 > An intelligent, two-mode career guidance platform that uses AI and Machine Learning to recommend ideal occupations.
 
 - It provides personalised career recommendations based on users' personality traits (OCEAN), interests (RIASEC), and educational background.
-
 - The system features two distinct modes: a questionnaire-based mode for structured input and a free-text mode that leverages Natural Language Processing (NLP) for analysis.
-
 - It employs advanced techniques like cosine similarity, TF-IDF, sentence-transformers, and PCA to map user profiles against the comprehensive O*NET occupation database.
-
 - The platform is built with a modern, scalable architecture, featuring a modular backend and persistent storage with MongoDB.
-
 
 ## Demo
 
 ![](/assets/demo.gif)
 
-
 ## Table of Contents
 
-* [Tech Stack and Prerequisites](#tech-stack-and-prerequisites)
-* [How to Install and Run the Project](#how-to-install-and-run-the-project)
-* [How to Use the Project](#how-to-use-the-project)
-* [Future Improvements](#future-improvements)
-* [Acknowledgements](#acknowledgements)
-* [License](#license)
-## Tech Stack and Prerequisites
+1. [Tech Stack and Prerequisites](#1-tech-stack-and-prerequisites)
+2. [How to Install and Run the Project](#2-how-to-install-and-run-the-project)
+3. [How to Use the Project](#3-how-to-use-the-project)
+4. [Future Improvements](#4-future-improvements)
+5. [Acknowledgements](#5-acknowledgements)
+6. [License](#6-license)
+
+## 1. Tech Stack and Prerequisites
 
 **Frontend:** React.js, Tailwind CSS, Vite
-
 **Backend:** Node.js, Express.js, MongoDB, Python, Flask.
-
 **Prerequisites:** Git, MongoDB Community Edition, Node.js, Python 3.11
 
-
-
-## How to Install and Run the Project
+## 2. How to Install and Run the Project
 
 1. Clone the Repository:
 ```
@@ -99,7 +91,7 @@ npm run dev
 
 You can now access the application at http://localhost:5173.
 
-## How to Use the Project
+## 3. How to Use the Project
 
 Once the application is running, open your browser and navigate to http://localhost:5173.
 
@@ -115,21 +107,21 @@ You will be presented with two modes:
     - Select this option for a faster, text-based analysis.
     - Enter a free-text description of your skills, educational  background, work experience, and interests.
     - The system will use NLP to process your input and suggest relevant career paths.
-##  Future Improvements
 
-📄 **Resume Parsing**: Allow users to upload their resumes for automatic data extraction.
+##  4. Future Improvements
 
-📊 **Real-time Job Market Data**: Integrate with APIs from LinkedIn or Glassdoor to show current job trends.
+- **Resume Parsing**: Allow users to upload their resumes for automatic data extraction.
+-  **Real-time Job Market Data**: Integrate with APIs from LinkedIn or Glassdoor to show current job trends.
+- **Advanced User Interaction**: Incorporate facial emotion recognition and mouse tracking for deeper behavioral insights.
+- **Cloud Deployment**: Dockerize the application for easy deployment on platforms like Render, Railway, or Heroku.
 
-🧠 **Advanced User Interaction**: Incorporate facial emotion recognition and mouse tracking for deeper behavioral insights.
 
-☁️ **Cloud Deployment**: Dockerize the application for easy deployment on platforms like Render, Railway, or Heroku.
-## Acknowledgements
+## 5. Acknowledgements
 
  - [O*NET Database](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.onetcenter.org/database.html&ved=2ahUKEwjqkPDf8sOPAxU_xjgGHVJJAVkQFnoECBsQAQ&usg=AOvVaw1eY0-Pbasvzk_KaZWy7XF4)
  - [MongoDB Documentation](https://www.mongodb.com/docs/)
  - [Big Five Personality Traits (OCEAN)](https://en.wikipedia.org/wiki/Big_Five_personality_traits)
  - [Holland Codes (RIASEC)](https://en.wikipedia.org/wiki/Holland_Codes)
 
-## License
+## 6. License
 This project is licensed under the [MIT](LICENSE) License.
