@@ -128,6 +128,8 @@ You will be presented with two modes:
 
  - [O*NET Database](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.onetcenter.org/database.html&ved=2ahUKEwjqkPDf8sOPAxU_xjgGHVJJAVkQFnoECBsQAQ&usg=AOvVaw1eY0-Pbasvzk_KaZWy7XF4)
  - [MongoDB Documentation](https://www.mongodb.com/docs/)
+ - [Big Five Personality Traits (OCEAN)](https://en.wikipedia.org/wiki/Big_Five_personality_traits)
+ - [Holland Codes (RIASEC)](https://en.wikipedia.org/wiki/Holland_Codes)
 
 ## License
 This project is licensed under the [MIT](LICENSE) License.
