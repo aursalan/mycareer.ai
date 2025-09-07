@@ -29,13 +29,13 @@
 
 ## 2. How to Install and Run the Project
 
-1. Clone the Repository:
+**1. Clone the Repository:**
 ```
 git clone https://github.com/aursalan/mycareer.ai.git
 cd mycareer.ai
 ```
 
-2. Setup and Run MongoDB:
+**2. Setup and Run MongoDB:**
 ```
 cd database
 mongod --dbpath "your_database_directory_path"
@@ -52,13 +52,13 @@ Major_Project (Database)
 
 ```
 
-3. Start the Backend Server:
+**3. Start the Backend Server:**
 ```
 cd backend
 node server.js
 ```
 
-4. Start the ML Flask Server
+**4. Start the ML Flask Server:**
 - Set up and activate a Python virtual environment:
 ```
 cd ml
