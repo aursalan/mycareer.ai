@@ -1,5 +1,4 @@
-
-# Mycareer.ai 
+# 🔎 Mycareer.ai 
 
 > An intelligent, two-mode career guidance platform that uses AI and Machine Learning to recommend ideal occupations.
 
